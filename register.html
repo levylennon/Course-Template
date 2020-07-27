@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="login">
+        <img src="./assets/images/logo.jpg" alt="" />
+        <p class="sub_title_register"><strong> Register Account</strong></p>
+        <form id="form_register">
+          <label class="form-label" for="username">Username *</label>
+          <input class="form-input" type="text" name="username" id="username" />
+          <label class="form-label" for="email">E-mail *</label>
+          <input class="form-input" type="email" name="email" id="email" />
+          <label class="form-label" for="password">Password *</label>
+          <input
+            class="form-input"
+            type="password"
+            name="password"
+            id="password"
+          />
+          <label class="form-label" for="password">Confirm Password *</label>
+          <input
+            class="form-input"
+            type="password1"
+            name="password1"
+            id="password1"
+          />
+
+          <button class="btn" type="submit">Register</button>
+        </form>
+        <a href="/login.html">Back to login</a>
+        <div class="footer-login">
+          <i class="fas fa-arrow-left"></i>
+          <a href="/index.html">Return to website</a>
+        </div>
+        <div class="msg_info "></div>
+      </div>
+    </div>
+
+    <script src="./assets/js/register/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  margin-left: 280px;
+  padding: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.search-box {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.search-box i {
+  align-content: center;
+  color: gray;
+}
+.search-box input {
+  padding-left: 15px;
+  color: gray;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.user {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foto-user {
+  background: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.user span {
+  padding: 0 10px;
+  font-size: 20px;
+  color: gray;
+}
+.user a {
+  text-decoration: none;
+  color: blue;
+}
+
+.side-bar {
+  z-index: 2;
+  width: 280px;
+  background: #fff;
+  height: 100vh;
+  box-shadow: 2px 0px 15px rgb(0, 0, 0, 0.04);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header-side-bar {
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-side-bar .logo {
+  width: 30px;
+  height: 30px;
+}
+
+.list-side {
+  color: gray;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider-list {
+  padding-top: 20px;
+  padding-left: 20px;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+}
+
+.option-side-bar {
+  padding: 10px 20px;
+}
+
+.option-side-bar:hover {
+  background: rgb(70, 73, 70);
+}
+
+.option-side-bar a {
+  display: flex;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+}
+
+.is-active {
+  border-right: 4px solid rgb(70, 73, 70);
+  background: rgba(47, 47, 47, 0.137);
+}
+
+.content {
+  padding: 80px 40px 80px 300px;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.cards-courses {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.header-content select {
+  width: 200px;
+  background: white;
+  border-radius: 10px;
+  font-size: 25px;
+  color: gray;
+  border: none;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.cards img {
+  border-radius: 10px 10px 0px 00px;
+  height: 200px;
+  width: 100%;
+}
+.title-course {
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  word-wrap: break-word;
+  height: 50px;
+}
+.about-course {
+  padding: 0 8px 10px;
+  font-size: 15px;
+  text-align: justify;
+  align-content: center;
+  height: 100px;
+}
+
+.footer-course {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px;
+}
+
+.modules {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price-course p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  font-weight: bold;
+  width: 90px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.free p {
+  background: rgb(116, 204, 116);
+}
+
+.paid p {
+  background: rgb(207, 94, 94);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  top: 20%;
+  border-radius: 10px;
+  position: fixed;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px 30px;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+.login img {
+  max-width: 50px;
+  max-height: 50px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.form-label {
+  display: block;
+  text-align: left;
+  font-size: 13px;
+  color: gray;
+  padding-left: 5px;
+}
+.form-input {
+  color: gray;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+}
+.btn {
+  height: 30px;
+  width: 100%;
+  border: 1px solid #0094bc;
+  background: transparent;
+  color: #0094bc;
+  margin: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background: #0094bc;
+  color: white;
+}
+.remember-me {
+  margin: 8px 2px;
+  text-align: left;
+  color: gray;
+}
+.footer-login {
+  margin-top: 20px;
+  display: block;
+  text-align: left;
+  color: #0094bc;
+}
+.login a {
+  padding: 2px;
+  text-decoration: none;
+  color: #0094bc;
+}
+
+.footer-login a {
+  color: #0094bc;
+  text-decoration: none;
+}
+.sub_title_register{
+  margin-bottom: 30px;
+}
+.msg_info {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.msg_info p {
+  color: white;
+  margin-bottom: 2px;
+}
+.error {
+  background: rgb(192, 48, 48);
+}
+.success {
+  background: rgb(90, 184, 90);
+}
